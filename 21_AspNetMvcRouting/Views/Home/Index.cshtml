@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        Anasayfa
+        <hr />
+    </div>
+
+    <div>
+        @Html.ActionLink("Link1","Belge", new { belgeNo = 1 }) <br />
+        @Html.ActionLink("Link2", "Show", new { id = 2 })
+     
+    </div>
+</body>
+</html>
